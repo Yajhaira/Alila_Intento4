@@ -12,7 +12,7 @@
     --color-verde: #D5F26B;
     --color-amarillo: #F2EB88;
     --color-violeta:#BA91F2;
-    --color-lilaRosa: #CE79F2;
+    --color-lilaRosa: rgb(206, 121, 242);
     --color-negro: #1F1F1F;
 }
 
@@ -65,13 +65,12 @@ main {
 }
 
 #conteItemsCarrusel {
-    border: 5px solid black;
+    border: 5px solid rgba(206, 121, 242, 0.3);
     height: 566px;
     overflow: hidden;
 }
 
 .itemCarrusel {
-    border: 1px solid black;
     height: 100%;
     position: relative;
 }
@@ -104,6 +103,28 @@ main {
 
 #tarjetaCarrusel-3 {
     background-color: #793de8;
+}
+
+#contePuntos {
+    display: flex;
+    justify-content: center;
+}
+
+.punto1 {
+    padding-right: 50%;
+}
+
+.punto2 {
+    padding-right: 50%;
+    padding-left: 50%;
+}
+
+.punto3 {
+    padding-left: 100%;
+}
+
+a {
+    text-decoration: none;
 }
 
 footer {

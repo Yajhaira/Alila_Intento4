@@ -123,8 +123,49 @@ main {
     padding-left: 100%;
 }
 
+#seccionACS {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* #seccionACS img {
+    width: 95%;
+    height: 100%;
+    margin: 1%;
+}*/
+
+.porcelana {
+    margin: 1%;
+}
+
+.mostacilla {
+    margin: 1%;
+}
+
+.straps {
+    margin: 1%;
+}
+
+.porcelana:hover {
+    width: 40%;
+    transition: 0.5s;
+}
+
+.mostacilla:hover {
+    width: 40%;
+    transition: 0.5s;
+}
+
+.straps:hover {
+    width: 40%;
+    transition: 0.5s;  
+}
+
 a {
     text-decoration: none;
+    color: #F0FFB9;
 }
 
 footer {
